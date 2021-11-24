@@ -23,7 +23,6 @@ nav .logo{
     font-weight: 600;
     line-height: 70px;
     padding-left: 60px;
-    display: none;
 }
 
 nav ul{
@@ -49,15 +48,34 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    box-shadow: 0 0 5px #33ffff,
-                0 0 5px #66ffff;
+    color: #b030b0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #602080,
+                0 0 5px #d01bf5;
+}
+
+nav ul ul li a:hover{
+    color: #b030b0;
+    box-shadow: none;
 }
 
 nav ul ul{
     position: absolute;
-    top: 70px;
-    display: none;
+    top: 90px;
+    border-top: 3px solid #b030b0;
+    opacity: 0;
+    visibility: hidden;
+    transition: top .3s;
+}
 
+nav ul ul ul{
+    border-top: none;
+}
+
+nav ul li:hover > ul{
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
 }
 
 nav ul ul li{
