@@ -101,3 +101,16 @@ nav ul ul ul li{
     font-family: dock11;
     src:url(heavy_dock11.otf);
   }
+
+  h2{
+      color: black;
+      font-size: 27px;
+    font-weight: 600;
+    line-height: 70px;
+    padding-left: 60px;
+    font-family: 'Roboto Mono', monospace;
+  }
+
+  p{
+    font-family: 'Roboto Mono', monospace;
+  }
