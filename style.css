@@ -104,13 +104,14 @@ nav ul ul ul li{
 
   h2{
       color: black;
-      font-size: 27px;
+      font-size: 100px;
     font-weight: 600;
     line-height: 70px;
     padding-left: 60px;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Dongle', sans-serif;
   }
 
   p{
-    font-family: 'Roboto Mono', monospace;
+    font-size: 25px;
+    font-family: 'Dongle', sans-serif;
   }
